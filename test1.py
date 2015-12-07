@@ -1,5 +1,5 @@
 import csv
-with open('aaaa.csv') as aaa:
+with open('dataupdate.csv') as aaa:
     a = csv.reader(aaa)
     lst = list(a)
 import plotly.plotly as py
