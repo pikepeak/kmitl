@@ -38,7 +38,7 @@ fig = {
       "values": lstget,
       "labels": lstname,
       "domain": {"x": [0, .48]},
-      "name": "get",
+      "name": "จำนวนที่รับ",
       "hole": .4,
       "type": "pie"
     },     
@@ -48,21 +48,21 @@ fig = {
       "text":"CO2",
       "textposition":"inside",
       "domain": {"x": [.52, 1]},
-      "name": "reg",
+      "name": "จำนวนที่สมัคร",
       "hole": .4,
       "type": "pie"
     },     
   ],
   "layout": {
-        "title":"get and reg",
+        "title":"จำนวนที่รับ เเละ จำนวนที่สมัคร",
         "annotations": [
             {
                 "font": {
                     "size": 20
                 },
                 "showarrow": False,
-                "text": "GET",
-                "x": 0.20,
+                "text": "รับ",
+                "x": 0.22,
                 "y": 0.5
             },
             {
@@ -70,7 +70,7 @@ fig = {
                     "size": 20
                 },
                 "showarrow": False,
-                "text": "REG",
+                "text": "สมัคร",
                 "x": 0.8,
                 "y": 0.5
             }
