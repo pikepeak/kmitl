@@ -24,9 +24,8 @@ fig = {
         "No Admission",
       ],
       "domain": {"x": [0, .48]},
-      "hoverinfo":"label+percent",
-      "hole": .4,
-      "type": "pie"
+      "type": "pie",
+      'textinfo':'value+percent'
     },     
     {
       "values": lis_data,
@@ -47,36 +46,14 @@ fig = {
         "ไม่แอดอื่นๆ"
       ],
       "text":"แอดและไม่แอดของแต่ละคณะ",
-      "textposition":"inside",
-      "domain": {"x": [.52, 1]},
-      "hoverinfo":"label+percent",
-      "hole": .4,
-      "type": "pie"
+      "domain": {"x": [.50, 0.98]},
+      "type": "pie",
+      'textinfo':'value+percent'
     },     
   ],
   "layout": {
         "title":'จำนวนทั้งหมดของแอดมิชชั่นและของแต่ละคณะ',
-        "annotations": [
-            {
-                "font": {
-                    "size": 20
-                },
-                "showarrow": False,
-                "text": "แอดและไม่แอด",
-                "x": 0.17,
-                "y": 0.5
-            },
-            {
-                "font": {
-                    "size": 20
-                },
-                "showarrow": False,
-                "text": "แต่ละคณะ",
-                "x": 0.81,
-                "y": 0.5
-            }
-        ]
-    }
+        }
 }
 
 url = py.plot(fig, filename='จำนวนทั้งหมดของแอดมิชชั่นและของแต่ละคณะ')

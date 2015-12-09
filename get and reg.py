@@ -40,6 +40,7 @@ fig = {
       "domain": {"x": [0, .48]},
       "name": "จำนวนที่รับ",
       "hole": .4,
+      'textinfo':'value+percent',
       "type": "pie"
     },     
     {
@@ -50,6 +51,7 @@ fig = {
       "domain": {"x": [.52, 1]},
       "name": "จำนวนที่สมัคร",
       "hole": .4,
+      'textinfo':'value+percent',
       "type": "pie"
     },     
   ],
