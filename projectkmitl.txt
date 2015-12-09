@@ -1,1 +1,4 @@
-start project
+score use dataupdate.csv @ pic[styled-line(1)]
+get and reg use dataupdate.csv, สมุดงาน2.csv @ pic[GET and REG(2)]
+min max 54-58 use dataupdate.csv, adm 54-57.csv
+timelineregget use dataupdate.csv, adm 54-57.csv
