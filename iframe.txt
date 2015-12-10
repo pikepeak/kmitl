@@ -1,0 +1,5 @@
+timelineregget    =   <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~PongpipatPeanpat/50.embed"></iframe>
+score  =  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~PongpipatPeanpat/60.embed"></iframe>
+min-max  =  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~PongpipatPeanpat/62.embed"></iframe>
+get and reg  =  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~PongpipatPeanpat/76.embed"></iframe>
+adm and no  =  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~PongpipatPeanpat/29.embed"></iframe>
