@@ -14,7 +14,6 @@ with open('adm56.csv', newline="", encoding='utf-8') as aaa:
 with open('adm57.csv', newline="", encoding='utf-8') as aaa:
     a = csv.reader(aaa)
     adm57 = list(a)
-print(adm57)
 
 """mean of min score adm54-48"""
 all_min = 0
